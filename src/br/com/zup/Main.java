@@ -11,5 +11,9 @@ public class Main {
         Bola quadrada = new Bola(2, "colorida", "Kiko", 3.5);
         System.out.println("Bola marca: " + quadrada.marca);
         System.out.println("Cor da bola: " + quadrada.cor);
+
+        Pessoa Raquel = new Pessoa("Raquel", 36,1.61);
+        Raquel.peso = 61.24;
+        System.out.println("Nome: " + Raquel.nome + " Idade: " + Raquel.idade + " Peso: " + Raquel.peso + " Altura: " + Raquel.altura);
     }
 }
