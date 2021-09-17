@@ -18,5 +18,12 @@ public class Main {
 
         ContaCorrente raquelItau = new ContaCorrente(789, "Raquel");
         System.out.println("Número da conta: " + raquelItau.numeroDaConta + " Nome do correntista: " + raquelItau.nomeCorrentista + " Saldo: " + raquelItau.saldo);
+
+        Carro marquinhos = new Carro(2,"esportivo", "pixar");
+        System.out.println("Potência padrão: " + marquinhos.potencia);
+        marquinhos.potencia = 300;
+        System.out.println("Potência de corrida: " + marquinhos.potencia);
+
+
     }
 }
