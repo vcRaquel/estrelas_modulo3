@@ -54,7 +54,12 @@ public class Main {
 
             switch (seletor){
                 case 1:
-                    System.out.println("Continente");
+//                    System.out.println(continente);
+                    for (Pais referencia: continente) {
+                        System.out.println("Nome: " + referencia.nome);
+                        System.out.println("Território: " + referencia.territorio);
+                        System.out.println("População" + referencia.populacao);
+                    }
                     break;
                 case 2:
                     System.out.println("Obrigado por usar o programa, até a próxima!");
