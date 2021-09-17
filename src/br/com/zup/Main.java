@@ -12,8 +12,11 @@ public class Main {
         System.out.println("Bola marca: " + quadrada.marca);
         System.out.println("Cor da bola: " + quadrada.cor);
 
-        Pessoa Raquel = new Pessoa("Raquel", 36,1.61);
-        Raquel.peso = 61.24;
-        System.out.println("Nome: " + Raquel.nome + " Idade: " + Raquel.idade + " Peso: " + Raquel.peso + " Altura: " + Raquel.altura);
+        Pessoa raquel = new Pessoa("Raquel", 36,1.61);
+        raquel.peso = 61.24;
+        System.out.println("Nome: " + raquel.nome + " Idade: " + raquel.idade + " Peso: " + raquel.peso + " Altura: " + raquel.altura);
+
+        ContaCorrente raquelItau = new ContaCorrente(789, "Raquel");
+        System.out.println("Número da conta: " + raquelItau.numeroDaConta + " Nome do correntista: " + raquelItau.nomeCorrentista + " Saldo: " + raquelItau.saldo);
     }
 }
